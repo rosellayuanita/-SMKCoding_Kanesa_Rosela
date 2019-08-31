@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <LinearLayout
+        android:id="@+id/login_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textColor="@color/colorBlue"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@id/login_from"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+    <ScrollView
+        android:id="@+id/login_from"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <EditText
+          android:id="@+id/login_layout_username"
+          android:hint="@string/username"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"/>
+      <EditText
+          android:id="@+id/login_layout_password"
+          android:hint="@string/password"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"/>
+      <Button
+          android:layout_gravity
+          android:layout_width=""
+          android:layout_height=""
+
+
+
+</RelativeLayout>
